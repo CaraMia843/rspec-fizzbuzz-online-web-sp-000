@@ -6,6 +6,8 @@ def fizzbuzz(num)
     "Fizz"
   elsif num % 5 == 0 
     "Buzz"
+  elsif num % 5 && 3 == 0
+    "Fizzbuzz"
   else
     nil
   end
